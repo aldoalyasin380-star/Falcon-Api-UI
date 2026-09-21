@@ -23,14 +23,28 @@
             "text": "Text for luminai to respond to"
           }
         },
-       {
+        {
           "name": "HydroMind",
           "desc": "See the list of supported AI models here: https://mind.hydrooo.web.id",
           "path": "/ai/hydromind?text=&model=",
           "status": "ready",
           "params": {
             "text": "Teks atau perintah untuk chat AI",
-            "model":"1See the list of supported AI models here: https://mind.hydrooo.web.id"
+            "model": "See the list of supported AI models here: https://mind.hydrooo.web.id"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Maker",
+      "items": [
+        {
+          "name": "Brat Anime",
+          "desc": "Generate brat anime style image",
+          "path": "/maker/bratanime?text=",
+          "status": "ready",
+          "params": {
+            "text": "Text to display on brat anime maker"
           }
         }
       ]
