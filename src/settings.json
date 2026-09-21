@@ -50,6 +50,29 @@
       ]
     },
     {
+      "name": "Games",
+      "items": [
+        {
+          "name": "Siapakah Aku",
+          "desc": "Guess who am I game question",
+          "path": "/games/siapakahaku",
+          "status": "ready"
+        },
+        {
+          "name": "Islamic",
+          "desc": "Islamic trivia or game questions",
+          "path": "/games/islamic",
+          "status": "ready"
+        },
+        {
+          "name": "Asah Otak",
+          "desc": "Brain teaser quiz game",
+          "path": "/games/asahotak",
+          "status": "ready"
+        }
+      ]
+    },
+    {
       "name": "Random",
       "items": [
         {
