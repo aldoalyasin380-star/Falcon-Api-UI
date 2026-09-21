@@ -38,7 +38,7 @@
     {
       "name": "Maker",
       "items": [
-        {
+         {
           "name": "Brat",
           "desc": "Generate brat style image",
           "path": "/maker/brat?text=",
