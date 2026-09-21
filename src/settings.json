@@ -1,7 +1,7 @@
 {
-  "name": "ALDEV RESS API",
-  "version": "v1.0.0",
-  "description": "Ress api Lengkap gratis.",
+  "name": "API ALDEV",
+  "version": "v1.5.0",
+  "description": "FREE API FAST RESPON",
   "bannerImage": "/src/banner.jpg",
   "header": {
     "status": "Online!"
@@ -38,6 +38,15 @@
     {
       "name": "Maker",
       "items": [
+        {
+          "name": "Brat",
+          "desc": "Generate brat text image style",
+          "path": "/maker/brat?text=",
+          "status": "ready",
+          "params": {
+            "text": "Text to display on brat maker"
+          }
+        },
         {
           "name": "Brat Anime",
           "desc": "Generate brat anime style image",
@@ -87,6 +96,92 @@
           "desc": "GTA Wasted image editor effect",
           "path": "/editor/wasted",
           "status": "ready"
+        }
+      ]
+    },
+    {
+      "name": "Downloader",
+      "items": [
+        {
+          "name": "Douyin",
+          "desc": "Download video from Douyin",
+          "path": "/downloader/douyin?url=",
+          "status": "ready",
+          "params": {
+            "url": "Douyin video URL"
+          }
+        },
+        {
+          "name": "Github",
+          "desc": "Download repository or file from Github",
+          "path": "/downloader/github?url=",
+          "status": "ready",
+          "params": {
+            "url": "Github URL"
+          }
+        },
+        {
+          "name": "Pinterest",
+          "desc": "Download media from Pinterest",
+          "path": "/downloader/pinterest?url=",
+          "status": "ready",
+          "params": {
+            "url": "Pinterest URL"
+          }
+        },
+        {
+          "name": "Tiktok",
+          "desc": "Download video from Tiktok",
+          "path": "/downloader/tiktok?url=",
+          "status": "ready",
+          "params": {
+            "url": "Tiktok video URL"
+          }
+        },
+        {
+          "name": "Ytplay",
+          "desc": "YouTube play / downloader",
+          "path": "/downloader/ytplay?url=",
+          "status": "ready",
+          "params": {
+            "url": "YouTube URL or search query"
+          }
+        },
+        {
+          "name": "Snack Video",
+          "desc": "Download video from Snack Video",
+          "path": "/downloader/snackvideo?url=",
+          "status": "ready",
+          "params": {
+            "url": "Snack Video URL"
+          }
+        },
+        {
+          "name": "NPM Package",
+          "desc": "Get NPM package info or download link",
+          "path": "/downloader/npm?query=",
+          "status": "ready",
+          "params": {
+            "query": "Package name"
+          }
+        },
+        {
+          "name": "Google Drive",
+          "desc": "Download file from Google Drive",
+          "path": "/downloader/googledrive?url=",
+          "status": "ready",
+          "params": {
+            "url": "Google Drive URL"
+          }
+        },
+        {
+          "name": "Capcut",
+          "desc": "Download video/template from Capcut",
+          "path": "/downloader/capcut?url=",
+          "status": "ready",
+          "params": {
+            "url": "Capcut template URL"
+          }
         }
       ]
     },
