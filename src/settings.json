@@ -1,7 +1,7 @@
 {
   "name": "ALDEV RESS API",
   "version": "v1.0.0",
-  "description": "Website Ress Api gratis",
+  "description": "Ress api Lengkap gratis.",
   "bannerImage": "/src/banner.jpg",
   "header": {
     "status": "Online!"
@@ -36,62 +36,61 @@
       ]
     },
     {
-      {
-  "name": "Maker",
-  "items": [
-    {
-      "name": "Brat Anime",
-      "desc": "Generate brat anime style image",
-      "path": "/maker/bratanime?text=",
-      "status": "ready",
-      "params": {
-        "text": "Text to display"
-      }
+      "name": "Maker",
+      "items": [
+        {
+          "name": "Brat Anime",
+          "desc": "Generate brat anime style image",
+          "path": "/maker/bratanime?text=",
+          "status": "ready",
+          "params": {
+            "text": "Text to display on brat anime maker"
+          }
+        },
+        {
+          "name": "IQC v1",
+          "desc": "Fake quote generator v1",
+          "path": "/maker/v1/iqc",
+          "status": "ready"
+        },
+        {
+          "name": "IQC",
+          "desc": "Fake quote generator",
+          "path": "/maker/iqc",
+          "status": "ready"
+        },
+        {
+          "name": "Brat Video",
+          "desc": "Generate brat video style",
+          "path": "/maker/bratvid",
+          "status": "ready"
+        },
+        {
+          "name": "Ustadz Meme",
+          "desc": "Ustadz meme maker",
+          "path": "/maker/ustadz",
+          "status": "ready"
+        }
+      ]
     },
     {
-      "name": "IQC v1",
-      "desc": "Fake quote generator v1",
-      "path": "/maker/v1/iqc",
-      "status": "ready"
+      "name": "Editor",
+      "items": [
+        {
+          "name": "Wanted Foster",
+          "desc": "Wanted poster image editor",
+          "path": "/editor/wanted",
+          "status": "ready"
+        },
+        {
+          "name": "Wasted",
+          "desc": "GTA Wasted image editor effect",
+          "path": "/editor/wasted",
+          "status": "ready"
+        }
+      ]
     },
     {
-      "name": "IQC",
-      "desc": "Fake quote generator",
-      "path": "/maker/iqc",
-      "status": "ready"
-    },
-    {
-      "name": "Brat Video",
-      "desc": "Generate brat video style",
-      "path": "/maker/bratvid",
-      "status": "ready"
-    },
-    {
-      "name": "Ustadz Meme",
-      "desc": "Ustadz meme maker",
-      "path": "/maker/ustadz",
-      "status": "ready"
-    }
-  ]
-},
-{
-  "name": "Editor",
-  "items": [
-    {
-      "name": "Wanted Foster",
-      "desc": "Wanted poster image editor",
-      "path": "/editor/wanted",
-      "status": "ready"
-    },
-    {
-      "name": "Wasted",
-      "desc": "GTA Wasted image editor effect",
-      "path": "/editor/wasted",
-      "status": "ready"
-    }
-   ]
- }, 
- {
       "name": "Games",
       "items": [
         {
